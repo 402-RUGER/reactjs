@@ -4,14 +4,15 @@ export function User(props) {
 
     return (
         <>
+        <div>
+        <div> User: {props.element.name} {props.element.last_name} </div>
+        <div> Age: {props.element.age} </div>  
+        <div> Cat: {props.element.cat.name}, age:{props.element.cat.age} </div> 
         
-    
-        <div>User:  {props.element.name} {props.element.last_name} {props.element.age} {props.element.cat.name} {props.element.cat.age} 
             {/* <ul> 
            {props.element.map(el => <li key={el}>{el}</li>)}
                 </ul> */}
-        
-       
+         
         <ul> 
            {props.element.salaries.map(el => (
            <p key={el.salary}>
