@@ -27,14 +27,7 @@ interface SalariesProps {
         </thead>
         <tbody>
           {salaries_rows}
-        </tbody>
-        <tfoot>
-          <tr>
-            <td>#</td>
-            <td>Salary</td>
-            <td>Date</td>
-          </tr>
-        </tfoot>
+    </tbody>
       </table>; 
     }
 }
